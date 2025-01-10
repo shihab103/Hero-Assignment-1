@@ -19,6 +19,34 @@ body {
 }
 /* share section end */
 
+/* navbar */
+
+nav div{
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+nav h1{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+nav button{
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    background: #fff;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px;
+}
+
 /* banner section */
 .banner {
   margin: 0 auto;
