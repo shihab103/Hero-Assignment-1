@@ -121,6 +121,10 @@ body{
 
 /* news section */
 
+.news-section{
+    height: 1450px;
+}
+
 .recent-news{
     width: 1280px;
     margin: 0 auto;
@@ -177,4 +181,54 @@ body{
 }
 .news-1 div button{
     margin-top: 45px;
+}
+
+/* donate section */
+.donate{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+.donate h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.donate p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding: 0 50px;
+}
+.donate .box{
+    width: 240px;
+    height: 128px;
+    background-color: #fff;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    align-content: center;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 32px;
+}
+.donate .taka{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.donate input{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    margin-bottom: 32px;
 }
