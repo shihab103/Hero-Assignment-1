@@ -212,6 +212,7 @@ nav button:hover{
   padding: 48px 24px;
   background-image: url("assets/quote-bg.png");
   background-repeat: no-repeat;
+  margin-bottom: 80px;
 }
 .yunus p{
   color: rgba(14, 14, 14, 0.8);
@@ -229,8 +230,51 @@ nav button:hover{
 }
 
 /* opinion section */
-
-
+#tbl{
+  width: 1280px;
+  margin: 0 auto;
+  height: 410px;
+  background-color: #fff;
+  border-radius: 16px;
+  align-content: center;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 95%;
+}
+table button{
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 10px 14px 10px 14px;
+    margin-left: 24px;
+}
+#center{
+    width: 200px;
+    height: 90px;
+}
+td,
+th {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  text-align: left;
+  padding-left: 12px;
+}
+thead{
+  height: 72px;
+  background: rgb(198, 228, 214);
+}
+tbody tr td{
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  padding-left: 12px;
+}
 
 /* news section */
 
