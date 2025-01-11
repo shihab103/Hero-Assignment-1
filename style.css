@@ -221,6 +221,9 @@ nav button:hover{
   font-weight: 400;
   line-height: 24px;
 }
+#chief{
+  color: rgba(14, 14, 14, 0.6);
+}
 .yunus h1{
   color: rgba(14, 14, 14, 0.8);
   font-size: 20px;
@@ -238,6 +241,14 @@ nav button:hover{
   background-color: #fff;
   border-radius: 16px;
   align-content: center;
+}
+#matters{
+  margin-bottom: 24px;
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-left: 158px;
 }
 table {
   border-collapse: collapse;
