@@ -213,6 +213,7 @@ nav button:hover{
   background-image: url("assets/quote-bg.png");
   background-repeat: no-repeat;
   margin-bottom: 80px;
+  background-position: 25px 25px;
 }
 .yunus p{
   color: rgba(14, 14, 14, 0.8);
@@ -253,6 +254,10 @@ table button{
     line-height: 19px;
     padding: 10px 14px 10px 14px;
     margin-left: 24px;
+    transition: 0.2s ease;
+}
+table button:hover{
+  transform: scale(1.04);
 }
 #center{
     width: 200px;
